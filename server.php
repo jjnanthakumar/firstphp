@@ -5,7 +5,7 @@
    $email = "";
    $errors = array();
 
-   $db = mysqli_connect('localhost','root','','registration');
+   $db = mysqli_connect('firstphpproject.herokuapp.com','root','','registration');
 
    if(isset($_POST['register'])) {
        $username = mysqli_real_escape_string($db, $_POST['username']);
