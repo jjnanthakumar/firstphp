@@ -5,7 +5,7 @@
    $email = "";
    $errors = array();
 
-   $db = mysqli_connect('firstphpproject','root','','registration');
+     $db = mysqli_connect('remotemysql.com','OzHDSyAbft','iRXXv1uHK1','OzHDSyAbft');
 
    if(isset($_POST['register'])) {
        $username = mysqli_real_escape_string($db, $_POST['username']);
